@@ -13,12 +13,13 @@
 # Files
 data.location=~/.task
 
-taskd.certificate=~/.config/task-warrior/credentials/private.certificate.pem
-taskd.key=~/.config/task-warrior/credentials/private.key.pem
-taskd.ca=~/.config/task-warrior/credentials/ca.crt
+taskd.certificate=~/.config/task/credentials/private.certificate.pem
+taskd.key=~/.config/task/credentials/private.key.pem
+taskd.ca=~/.config/task/credentials/ca.crt
 taskd.server=inthe.am:53589
 taskd.credentials=inthe_am/brotifypacha/2f0a8250-72bb-44f4-8954-e63cab6d86a0
 taskd.trust=strict
+
 context.work=+work
 
 weekstart=monday
