@@ -20,7 +20,13 @@ taskd.server=inthe.am:53589
 taskd.credentials=inthe_am/brotifypacha/2f0a8250-72bb-44f4-8954-e63cab6d86a0
 taskd.trust=strict
 
-context.work=+work
 
 weekstart=monday
 news.version=2.6.0
+
+# Contexts
+context.work.read=+work
+context.work.write=+work
+
+context.easylang-landings.read=+work project:easylang-landings
+context.easylang-landings.write=+work project:easylang-landings
