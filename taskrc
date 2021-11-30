@@ -24,6 +24,8 @@ taskd.trust=strict
 weekstart=monday
 news.version=2.6.0
 
+data.location=$HOME/.config/task
+
 # Contexts
 context.work.read=+work
 context.work.write=+work
